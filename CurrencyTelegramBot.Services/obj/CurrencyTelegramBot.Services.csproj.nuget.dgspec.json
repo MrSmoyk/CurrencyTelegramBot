@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Services\\CurrencyTelegramBot.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\CurrencyTelegramBot.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\CurrencyTelegramBot.Models.csproj",
+        "projectName": "CurrencyTelegramBot.Models",
+        "projectPath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\CurrencyTelegramBot.Models.csproj",
+        "packagesPath": "C:\\Users\\MrSmoyk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MrSmoyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Services\\CurrencyTelegramBot.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Services\\CurrencyTelegramBot.Services.csproj",
+        "projectName": "CurrencyTelegramBot.Services",
+        "projectPath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Services\\CurrencyTelegramBot.Services.csproj",
+        "packagesPath": "C:\\Users\\MrSmoyk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MrSmoyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\CurrencyTelegramBot.Models.csproj": {
+                "projectPath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\CurrencyTelegramBot\\CurrencyTelegramBot.Models\\CurrencyTelegramBot.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Telegram.Bot.Extensions.Polling": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
